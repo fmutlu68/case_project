@@ -1,0 +1,117 @@
+{
+  "users":[
+            {  "id":1,
+        "username":"user1",
+        "password":"pass1",
+        "role":"ADMIN"
+              
+            },
+            {  "id":2,
+        "username":"user2",
+        "password":"pass2",
+        "role":"USER",
+        "interests": [1,2,3]
+            },
+            { 
+             "id":3,
+        "username":"user3",
+        "password":"pass3",
+        "role":"USER",
+        "interests":[1,2]
+            },
+            {  "id":4,
+        "username":"user4",
+        "password":"pass4",
+        "role":"USER"
+              
+            }
+            
+          ],
+  "interestsCategories":[
+    {
+      "id":1,
+      "name":"Bilgisayar Oyunları"
+      
+    },
+    {
+      "id":2,
+      "name":"Film"
+      
+    },
+    {
+      "id":3,
+      "name":"Kitap"
+      
+    }
+    
+    ],
+    "interests":[
+             {
+                "id":1,
+              "interests":"CS-GO",
+              "category_id":1
+             },
+             {
+                "id":2,
+              "interests":"PUBG",
+              "category_id":1
+             },
+             {
+                "id":3,
+              "interests":"Esaretin Bedeli",
+              "category_id":2
+             }
+      ],
+    "tickets":[
+      {
+        "id":1,
+        "title":"Title",
+        "user_id":2,
+        "status":true
+      },
+      {
+        "id":2,
+        "title":"Title",
+        "user_id":4,
+        "status":false
+      }
+      ],
+    "ticketMessages":[
+        {
+          "id":1,
+          "owner_id":3,
+          "message":"MESSAGE......",
+          "createDate":"10-10-2019 10:30",
+          "ticket_id" : 1
+        },
+        {
+          "id":2,
+          "owner_id":1,
+          "message":"MESSAGE......",
+          "createDate":"10-10-2019 10:30",
+          "ticket_id" : 1
+        },
+        {
+          "id":3,
+          "owner_id":4,
+          "message":"MESSAGE......",
+          "createDate":"10-10-2019 14:30",
+          "ticket_id" : 1
+        },
+        {
+          "id":4,
+          "owner_id":4,
+          "message":"MESSAGE......",
+          "createDate":"10-11-2019 10:30",
+          "ticket_id" : 2
+        },
+        {
+          "id":5,
+          "owner_id":1,
+          "message":"MESSAGE......",
+          "createDate":"10-11-2019 14:30",
+          "ticket_id" : 2
+        }
+      ]  
+            
+}
